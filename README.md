@@ -10,7 +10,9 @@
       
 ### Usage
     - To show Activity indicator:
-        ``AI.show();``
+        ``AI.show("style");`` for a gray theme
+        ``AI.show("style1");`` for a blue theme
+        ``AI.show("style2");`` for an orange theme
     - To hide Activity indicator:
         ``AI.hide();``        
         
