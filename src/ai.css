@@ -30,6 +30,22 @@
     left: 0px;
     background-color: rgba(0,0,0,.6);
 }
+.fadeBox1{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,191,255,.6);
+}
+.fadeBox2{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(244,164,96,.6);
+}
 
 .spinner{
     -webkit-animation: infinite-spinning 1s infinite linear;
@@ -38,6 +54,28 @@
     min-height: 50px;
     margin: auto;
     background: url(./ac.png) no-repeat center;
+    background-size: contain;
+    margin-top: 10%;
+    display: block;
+}
+.spinner1{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+    width: 50px;
+    min-height: 50px;
+    margin: auto;
+    background: url(./style1.png) no-repeat center;
+    background-size: contain;
+    margin-top: 10%;
+    display: block;
+}
+.spinner2{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+    width: 50px;
+    min-height: 50px;
+    margin: auto;
+    background: url(./style2.png) no-repeat center;
     background-size: contain;
     margin-top: 10%;
     display: block;
